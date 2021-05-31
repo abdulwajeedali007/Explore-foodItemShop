@@ -1,0 +1,66 @@
+@import "../../variables.scss";
+.allitems {
+  background-image: url("../../Images/resturant.jpg");
+  padding: 15rem 0rem;
+  width: 100%;
+  height: auto;
+  margin-bottom: 3rem;
+  position: relative;
+  z-index: 1;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 164, 66, 0.3);
+    z-index: -1;
+  }
+  .main__heading {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 3.5rem;
+    z-index: 2;
+    color: #fff;
+  }
+  p {
+    font-size: 1rem;
+    color: #fff;
+  }
+}
+@media (max-width: 90rem) {
+  .allitems {
+    padding: 6rem 0rem;
+    .main__heading {
+      font-size: 2rem;
+    }
+  }
+}
+.boxShadow {
+  box-shadow: 0rem 1rem 1.5rem -2rem rgba(0, 0, 0, 1);
+}
+.title {
+  font-weight: 800 !important;
+  margin-bottom: 0rem !important;
+}
+
+.cardButton {
+  background: $primary__color;
+  border: 0;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.8rem;
+  border-radius: 0.2rem;
+  &:hover {
+    background: darken($primary__color, 10%);
+  }
+}
+.addedToCart {
+  background: #000000;
+  color: #fff;
+  border: 0;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  border-radius: 0.2rem;
+}

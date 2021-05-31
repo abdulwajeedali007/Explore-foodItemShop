@@ -1,0 +1,50 @@
+@import "../../variables.scss";
+
+.items__container {
+  background: linear-gradient(-45deg, $primary__color, $lightyellow__color);
+  padding: 10rem 0rem;
+  .small__heading {
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    text-align: center;
+  }
+  .main__heading {
+    font-size: 2.8rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+.boxShadow {
+  box-shadow: 0rem 1rem 1.5rem -2rem rgba(0, 0, 0, 1);
+}
+.title {
+  font-weight: 800 !important;
+  margin-bottom: 0rem !important;
+}
+
+.cardButton {
+  background: $primary__color;
+  border: 0;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.8rem;
+  border-radius: 0.2rem;
+  &:hover {
+    background: darken($primary__color, 10%);
+  }
+}
+.text {
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 50rem) {
+  .items__container {
+    .main__heading {
+      font-size: 2.5rem !important;
+      line-height: 2.2rem !important;
+    }
+  }
+}

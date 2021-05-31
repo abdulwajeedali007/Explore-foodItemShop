@@ -1,0 +1,62 @@
+@import "../../variables.scss";
+
+.features__container {
+  padding: 10rem 0rem;
+  position: relative;
+  overflow: hidden;
+  .small__heading {
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    color: $primary__color;
+    text-align: center;
+  }
+  .main__heading {
+    font-size: 2.8rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .service {
+    padding: 1rem;
+    .icon {
+      font-size: 2rem;
+      color: $primary__color;
+    }
+    .name {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    .text {
+      font-size: 0.9rem;
+      font-weight: 300;
+    }
+  }
+  .imageoutbox {
+    position: absolute;
+    width: 20%;
+    left: 0%;
+    top: 5%;
+    img {
+      width: 100%;
+    }
+  }
+  .imageout2 {
+    position: absolute;
+    width: 20%;
+    right: 0%;
+    bottom: 5%;
+    img {
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 50rem) {
+  .features__container {
+    .main__heading {
+      font-size: 2.5rem !important;
+      line-height: 2.2rem !important;
+    }
+  }
+}

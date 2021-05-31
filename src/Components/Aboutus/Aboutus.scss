@@ -1,0 +1,38 @@
+@import "../../variables.scss";
+
+.about__container {
+  background: linear-gradient(55deg, $primary__color, $lightyellow__color);
+
+  padding: 10rem 0rem;
+  .content__area {
+    .small__heading {
+      font-size: 1rem;
+      font-weight: 800;
+      letter-spacing: 0.1rem;
+      color: $lightyellow__color;
+    }
+    .main__heading {
+      font-size: 3.5rem;
+      font-weight: 800;
+      line-height: 3.5rem;
+    }
+    p {
+      margin-top: 1rem;
+      font-size: 1rem;
+      text-align: left;
+    }
+    button {
+      margin-top: 2rem;
+      @include btn-bg(#333, #333, #fff);
+      @include border-color(#333);
+    }
+  }
+}
+@media (max-width: 50rem) {
+  .content__area {
+    .main__heading {
+      font-size: 2.5rem !important;
+      line-height: 2.5rem !important;
+    }
+  }
+}
