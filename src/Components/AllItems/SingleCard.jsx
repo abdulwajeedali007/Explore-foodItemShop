@@ -41,7 +41,7 @@ function SingleCard({ Posts }) {
               >
                 <AiOutlineShoppingCart />{" "}
                 {cartItems.find((cart) => cart.id === post.id)
-                  ? "Added to card"
+                  ? "Added to cart"
                   : "Add to cart"}
               </button>
             </Col>
