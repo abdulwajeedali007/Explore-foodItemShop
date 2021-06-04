@@ -34,25 +34,26 @@ function Index() {
         </Container>
       </div>
       <Container>
+        <Row className="justify-content-center">
+          <Col lg={8}>
+            <div className="search__input">
+              <InputGroup className="mb-3 ">
+                <FormControl
+                  className="inputSearch"
+                  placeholder="Enter food item name... Ex pizza, shawarma, tea,special..."
+                  aria-describedby="basic-addon2"
+                  onChange={(e) => handleChange(e)}
+                  value={searchTerm}
+                />
+                <InputGroup.Text id="basic-addon2 inputButton">
+                  <IoSearchOutline />
+                </InputGroup.Text>
+              </InputGroup>
+            </div>
+          </Col>
+        </Row>
+
         <Row>
-          <Row className="justify-content-center">
-            <Col lg={8}>
-              <div className="search__input">
-                <InputGroup className="mb-3 ">
-                  <FormControl
-                    className="inputSearch"
-                    placeholder="Enter food item name... Ex pizza, shawarma, tea,special..."
-                    aria-describedby="basic-addon2"
-                    onChange={(e) => handleChange(e)}
-                    value={searchTerm}
-                  />
-                  <InputGroup.Text id="basic-addon2 inputButton">
-                    <IoSearchOutline />
-                  </InputGroup.Text>
-                </InputGroup>
-              </div>
-            </Col>
-          </Row>
           <SingleCard Posts={searchTerm.length > 0 ? sortedItems : allPosts} />
         </Row>
       </Container>

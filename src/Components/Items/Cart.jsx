@@ -15,9 +15,9 @@ function SingleCard() {
     return post.latest === true;
   });
 
-  const lastestFoodItems = latestItems.map((post, index) => (
-    <Col lg={4}>
-      <Card key={index} className="mt-4 p-0 boxShadow">
+  const lastestFoodItems = latestItems.map((post) => (
+    <Col lg={4} key={post.id}>
+      <Card className="mt-4 p-0 boxShadow">
         <Card.Img variant="top" src={post.imageUrl} />
         <Card.Body>
           <Row className="align-items-center">
