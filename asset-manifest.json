@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Explore-foodItemShop/static/css/main.994b5559.chunk.css",
-    "main.js": "/Explore-foodItemShop/static/js/main.443dce1d.chunk.js",
-    "main.js.map": "/Explore-foodItemShop/static/js/main.443dce1d.chunk.js.map",
+    "main.css": "/Explore-foodItemShop/static/css/main.bcc26a11.chunk.css",
+    "main.js": "/Explore-foodItemShop/static/js/main.03f8137a.chunk.js",
+    "main.js.map": "/Explore-foodItemShop/static/js/main.03f8137a.chunk.js.map",
     "runtime-main.js": "/Explore-foodItemShop/static/js/runtime-main.79a31ce0.js",
     "runtime-main.js.map": "/Explore-foodItemShop/static/js/runtime-main.79a31ce0.js.map",
-    "static/js/2.87d4b8be.chunk.js": "/Explore-foodItemShop/static/js/2.87d4b8be.chunk.js",
-    "static/js/2.87d4b8be.chunk.js.map": "/Explore-foodItemShop/static/js/2.87d4b8be.chunk.js.map",
+    "static/js/2.0cedb4b8.chunk.js": "/Explore-foodItemShop/static/js/2.0cedb4b8.chunk.js",
+    "static/js/2.0cedb4b8.chunk.js.map": "/Explore-foodItemShop/static/js/2.0cedb4b8.chunk.js.map",
     "index.html": "/Explore-foodItemShop/index.html",
-    "static/css/main.994b5559.chunk.css.map": "/Explore-foodItemShop/static/css/main.994b5559.chunk.css.map",
-    "static/js/2.87d4b8be.chunk.js.LICENSE.txt": "/Explore-foodItemShop/static/js/2.87d4b8be.chunk.js.LICENSE.txt",
+    "static/css/main.bcc26a11.chunk.css.map": "/Explore-foodItemShop/static/css/main.bcc26a11.chunk.css.map",
+    "static/js/2.0cedb4b8.chunk.js.LICENSE.txt": "/Explore-foodItemShop/static/js/2.0cedb4b8.chunk.js.LICENSE.txt",
     "static/media/aboutusimage.b4b07e97.png": "/Explore-foodItemShop/static/media/aboutusimage.b4b07e97.png",
     "static/media/cheezpizza.3f1be3de.jpg": "/Explore-foodItemShop/static/media/cheezpizza.3f1be3de.jpg",
     "static/media/chickenshawarma.6c01d455.jpg": "/Explore-foodItemShop/static/media/chickenshawarma.6c01d455.jpg",
@@ -23,14 +23,14 @@
     "static/media/normalchai.b5d9722d.jpg": "/Explore-foodItemShop/static/media/normalchai.b5d9722d.jpg",
     "static/media/normalpizza.8140ea58.jpg": "/Explore-foodItemShop/static/media/normalpizza.8140ea58.jpg",
     "static/media/pizzahome.d246a584.png": "/Explore-foodItemShop/static/media/pizzahome.d246a584.png",
-    "static/media/Allitems.scss": "/Explore-foodItemShop/static/media/resturant.bf9dfe7f.jpg",
+    "static/media/Aboutpage.scss": "/Explore-foodItemShop/static/media/resturant.bf9dfe7f.jpg",
     "static/media/specialchai.0306e7ee.jpg": "/Explore-foodItemShop/static/media/specialchai.0306e7ee.jpg",
     "static/media/specialshawarma.2a703a2f.jpg": "/Explore-foodItemShop/static/media/specialshawarma.2a703a2f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.79a31ce0.js",
-    "static/js/2.87d4b8be.chunk.js",
-    "static/css/main.994b5559.chunk.css",
-    "static/js/main.443dce1d.chunk.js"
+    "static/js/2.0cedb4b8.chunk.js",
+    "static/css/main.bcc26a11.chunk.css",
+    "static/js/main.03f8137a.chunk.js"
   ]
 }
