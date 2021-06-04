@@ -6,6 +6,7 @@ import Footer from "./Components/Footer/Index";
 import Cart from "./Components/Cart";
 import PageNotFound from "./PageNotFound";
 import ALLItems from "./Components/AllItems";
+import AboutusPage from "./Components/AboutusPage";
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/about-page" component={AboutusPage} />
           <Route exact path="/cart" component={Cart} />
           <Route exact path="/items" component={ALLItems} />
           <Route component={PageNotFound} />
