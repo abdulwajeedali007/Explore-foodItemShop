@@ -17,6 +17,7 @@ export const foodData = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eum nemo quaerat nulla minus praesentium?",
     imageUrl: cheezpizza,
     latest: false,
+    hastag: ["chezz pizza", "normal pizza", "hot pizza"],
   },
   {
     id: 2,
@@ -26,6 +27,7 @@ export const foodData = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eum nemo quaerat nulla minus praesentium?",
     imageUrl: normalpizza,
     latest: false,
+    hastag: ["chezz pizza", "normal pizza", "hot pizza"],
   },
   {
     id: 3,
@@ -35,6 +37,7 @@ export const foodData = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eum nemo quaerat nulla minus praesentium?",
     imageUrl: hotpizza,
     latest: true,
+    hastag: ["chezz pizza", "normal pizza", "hot pizza"],
   },
   {
     id: 4,
@@ -44,6 +47,7 @@ export const foodData = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eum nemo quaerat nulla minus praesentium?",
     imageUrl: chickenshawarma,
     latest: false,
+    hastag: ["chicken shawarma", "mutton shawarma", "special shawarma"],
   },
   {
     id: 5,
@@ -53,6 +57,7 @@ export const foodData = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eum nemo quaerat nulla minus praesentium?",
     imageUrl: muttonshawarma,
     latest: false,
+    hastag: ["chicken shawarma", "mutton shawarma", "special shawarma"],
   },
   {
     id: 6,
@@ -62,6 +67,7 @@ export const foodData = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eum nemo quaerat nulla minus praesentium?",
     imageUrl: specialshawarma,
     latest: true,
+    hastag: ["chicken shawarma", "mutton shawarma", "special shawarma"],
   },
   {
     id: 7,
@@ -71,6 +77,7 @@ export const foodData = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eum nemo quaerat nulla minus praesentium?",
     imageUrl: cooldrinks,
     latest: false,
+    hastag: ["cool drinks"],
   },
   {
     id: 8,
@@ -80,6 +87,7 @@ export const foodData = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eum nemo quaerat nulla minus praesentium?",
     imageUrl: normalchai,
     latest: false,
+    hastag: ["tea", "special tea"],
   },
   {
     id: 9,
@@ -89,5 +97,6 @@ export const foodData = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eum nemo quaerat nulla minus praesentium?",
     imageUrl: specialchai,
     latest: true,
+    hastag: ["tea", "special tea"],
   },
 ];

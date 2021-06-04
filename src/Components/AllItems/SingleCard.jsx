@@ -1,14 +1,14 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { Card, Row, Col } from "react-bootstrap";
 import { BiRupee } from "react-icons/bi";
 import { AiOutlineShoppingCart } from "react-icons/ai";
-
 import "./Allitems.scss";
 import { Globalcontext } from "../../Context/GlobalContext";
+import DetailsCart from "./DetailsCart";
 
 function SingleCard({ Posts }) {
   const { addToCartAction, cartItems } = useContext(Globalcontext);
-
+  const [value, setValue] = useState(0);
   // addtocart
   const handleClick = (item) => {
     addToCartAction({
@@ -16,10 +16,24 @@ function SingleCard({ Posts }) {
       count: 1,
     });
   };
-  const post = Posts.map((post, index) => (
-    <Col lg={4}>
-      <Card key={index} className="mt-4 p-0 boxShadow">
-        <Card.Img variant="top" src={post.imageUrl} />
+
+  const getModal = (id) => {
+    setValue(id);
+  };
+
+  const hideModal = () => {
+    setValue(0);
+  };
+
+  const post = Posts.map((post) => (
+    <Col lg={4} key={post.id}>
+      <Card className="mt-4 p-0 boxShadow">
+        <div className="image__hover__content">
+          <Card.Img variant="top" src={post.imageUrl} />
+          <div className="details__button" onClick={() => getModal(post.id)}>
+            Details
+          </div>
+        </div>
         <Card.Body>
           <Row className="align-items-center">
             <Col lg={7} md={6} xs={6}>
@@ -48,6 +62,11 @@ function SingleCard({ Posts }) {
           </Row>
         </Card.Body>
       </Card>
+      <DetailsCart
+        show={value === post.id}
+        onHide={() => hideModal(post.id)}
+        post={post}
+      />
     </Col>
   ));
 
