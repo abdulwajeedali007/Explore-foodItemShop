@@ -77,14 +77,34 @@
   text-align: center;
   font-size: 0.8rem;
 }
+
 @media (max-width: 90rem) {
   .image__logo {
     flex-direction: column;
+    margin-top: 5rem;
+    img {
+      width: 30%;
+    }
   }
   .outImage {
     position: absolute;
-    top: 5% !important;
+    top: 30% !important;
     right: 5% !important;
     width: 15rem !important;
+  }
+}
+@media (max-width: 46rem) {
+  .image__logo {
+    flex-direction: column;
+    margin-top: 5rem;
+    img {
+      width: 50%;
+    }
+  }
+  .outImage {
+    position: absolute;
+    top: 25% !important;
+    right: 5% !important;
+    width: 10rem !important;
   }
 }

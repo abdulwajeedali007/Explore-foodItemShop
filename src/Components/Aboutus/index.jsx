@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import aboutusimage from "../../Images/aboutusimage.png";
+import { Link } from "react-router-dom";
 
 import "./Aboutus.scss";
 
@@ -25,8 +26,9 @@ function index() {
                 porro necessitatibus, ex vel voluptas corporis voluptatem cum
                 aliquam harum at.
               </p>
-
-              <button className="btnPrimary">Know More...</button>
+              <Link to="/about-page">
+                <button className="btnPrimary">Know More...</button>
+              </Link>
             </div>
           </Col>
         </Row>
