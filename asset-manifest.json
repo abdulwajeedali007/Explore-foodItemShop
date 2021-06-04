@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Explore-foodItemShop/static/css/main.d4b0009e.chunk.css",
-    "main.js": "/Explore-foodItemShop/static/js/main.86fa1051.chunk.js",
-    "main.js.map": "/Explore-foodItemShop/static/js/main.86fa1051.chunk.js.map",
+    "main.css": "/Explore-foodItemShop/static/css/main.994b5559.chunk.css",
+    "main.js": "/Explore-foodItemShop/static/js/main.443dce1d.chunk.js",
+    "main.js.map": "/Explore-foodItemShop/static/js/main.443dce1d.chunk.js.map",
     "runtime-main.js": "/Explore-foodItemShop/static/js/runtime-main.79a31ce0.js",
     "runtime-main.js.map": "/Explore-foodItemShop/static/js/runtime-main.79a31ce0.js.map",
-    "static/js/2.9917b3ed.chunk.js": "/Explore-foodItemShop/static/js/2.9917b3ed.chunk.js",
-    "static/js/2.9917b3ed.chunk.js.map": "/Explore-foodItemShop/static/js/2.9917b3ed.chunk.js.map",
+    "static/js/2.87d4b8be.chunk.js": "/Explore-foodItemShop/static/js/2.87d4b8be.chunk.js",
+    "static/js/2.87d4b8be.chunk.js.map": "/Explore-foodItemShop/static/js/2.87d4b8be.chunk.js.map",
     "index.html": "/Explore-foodItemShop/index.html",
-    "static/css/main.d4b0009e.chunk.css.map": "/Explore-foodItemShop/static/css/main.d4b0009e.chunk.css.map",
-    "static/js/2.9917b3ed.chunk.js.LICENSE.txt": "/Explore-foodItemShop/static/js/2.9917b3ed.chunk.js.LICENSE.txt",
+    "static/css/main.994b5559.chunk.css.map": "/Explore-foodItemShop/static/css/main.994b5559.chunk.css.map",
+    "static/js/2.87d4b8be.chunk.js.LICENSE.txt": "/Explore-foodItemShop/static/js/2.87d4b8be.chunk.js.LICENSE.txt",
     "static/media/aboutusimage.b4b07e97.png": "/Explore-foodItemShop/static/media/aboutusimage.b4b07e97.png",
     "static/media/cheezpizza.3f1be3de.jpg": "/Explore-foodItemShop/static/media/cheezpizza.3f1be3de.jpg",
     "static/media/chickenshawarma.6c01d455.jpg": "/Explore-foodItemShop/static/media/chickenshawarma.6c01d455.jpg",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.79a31ce0.js",
-    "static/js/2.9917b3ed.chunk.js",
-    "static/css/main.d4b0009e.chunk.css",
-    "static/js/main.86fa1051.chunk.js"
+    "static/js/2.87d4b8be.chunk.js",
+    "static/css/main.994b5559.chunk.css",
+    "static/js/main.443dce1d.chunk.js"
   ]
 }
